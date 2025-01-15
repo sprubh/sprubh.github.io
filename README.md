@@ -1,2 +1,2 @@
 # sprubh.github.io 
-Hi everyone my name is sharvesh, I'm 17 years old and I'm a senior at Apex Friendship, this is going to be my third semester at wake tech and my first computer class. I'm very excited to meet every one and collaborate with y'all. 
+Hi everyone my name is Sharvesh, my email is sprabhakaran@my.waketech.edu. My GitHub is my own personal GitHub account. This repository will be used for my Web Pgm course at WakeTech where it will hold assignments.
