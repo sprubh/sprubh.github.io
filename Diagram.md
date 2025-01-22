@@ -8,10 +8,10 @@ flowchart TD
     D -->|Invalid: Non-numeric or out of range| E[Display error message]
     E --> C
     D -->|Valid| F[Compare guess to random number]
-    F -->|Guess < Random| G[Display "Too low"]
+    F -->|Guess < Random| G[Too low]
     G --> C
-    F -->|Guess > Random| H[Display "Too high"]
+    F -->|Guess > Random| H[Too high]
     H --> C
-    F -->|Guess == Random| I[Display "Correct!"]
+    F -->|Guess == Random| I[Correct!]
     I --> J[End]
 ```
