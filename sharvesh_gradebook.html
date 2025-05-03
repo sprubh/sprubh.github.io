@@ -23,23 +23,8 @@
   <body>
     <h1>Gradebook</h1>
     <table id = "grade book">
-      function fetchGradeData() {
-        console.log("Fetching grade data...");
-        let xhr = new XMLHttpRequest();
-        let apiRoute = "/api/grades";
-        xhr.onreadystatechange = function() {
-          let results;
-          if(xhr.readyState === xhr.DONE) {
-            if(xhr.status !=200) {
-              console.error('could not get grades. Status: ${xhr.status}')
-              populateGradebook(JSON.parse(xhr.responseText));
-      
-      }
-        }
-        }.bind(this);
-      xhr.open("get",apiRoute, true);
-      xhr.send();
-      }
+
+    
       <thead>
         <tr>
           <th>Student Name</th>
